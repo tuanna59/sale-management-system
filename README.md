@@ -29,6 +29,6 @@ Project C++ - Sale Management System
 ## IDE
 * Visual Studio 2015
 
-## Acknowledgments
+## Achievements Gained
 * Get familiar with C++ Programming Language.
 * Learn How To Create An Windows App By Visual Studio and C++
