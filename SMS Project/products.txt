@@ -1,0 +1,16 @@
+HH001|Intel Core i3|SU001|Chip||Chip|
+HH002|Surface Book|SU002|Laptop||Laptop|
+HH003|Radeon 8750M|SU003|Graphic Card|
+HH004|Iphone 6s plus|SU004|Phone||Phone|
+HH005|HTC One|SU005|Phone|
+HH006|Samsung Galaxy S6|SU006|Phone||Phone|
+HH007|Boom Phone|SU007|Phone|
+HH008|Xperia Z5|SU008|Phone||Phone|
+HH009|Nokia 1280|SU009|Phone|
+HH010|Nvidia Pro|SU010|Graphic Card|
+HH011|LG G5|SU011|Phone||Phone|
+HH012|Oppo N5|SU012|Phone||Phone|
+HH013|Lumia 950 XL|SU002|Phone|
+HH014|Ipad Air 3|SU004|Tablet||Tablet|
+HH015|Intel Core i7|SU001|Chip|
+HH016|Ipad Pro|SU004|Tablet||Tablet|

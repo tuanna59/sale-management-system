@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E02E4387-CD6C-442E-ABD0-15D87372F275}</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>SMSProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="DetailedInvoice.cpp" />
+    <ClCompile Include="GlobalFunction.cpp" />
+    <ClCompile Include="Invoice.cpp" />
+    <ClCompile Include="MainForm.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Product.cpp" />
+    <ClCompile Include="Supplier.cpp" />
+    <ClCompile Include="Template.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="DetailedInvoice.h" />
+    <ClInclude Include="formAbout.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="formAccountManager.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="formCustomer.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="formInvoice.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="formLogin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="formProduct.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="formSearch.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="formStatistical.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="formSupplier.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="GlobalFunction.h" />
+    <ClInclude Include="Invoice.h" />
+    <ClInclude Include="MainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Product.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Supplier.h" />
+    <ClInclude Include="Template.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bt_Edit.bmp" />
+    <Image Include="Image1.bmp" />
+    <Image Include="res\background.jpg" />
+    <Image Include="res\icon_add.ico" />
+    <Image Include="res\icon_Edit.ico" />
+    <Image Include="res\icon_Edit.png" />
+    <Image Include="res\icon_guide.png" />
+    <Image Include="res\icon_logout.png" />
+    <Image Include="res\fork-3-icon.png" />
+    <Image Include="res\Hopstarter-Sleek-Xp-Basic-User-Group.ico" />
+    <Image Include="res\icon_Ok.ico" />
+    <Image Include="res\icon_reset.ico" />
+    <Image Include="res\Info_icon.png" />
+    <Image Include="res\invoice-manager-icon.png" />
+    <Image Include="res\Medical-invoice-information-icon.png" />
+    <Image Include="res\palet03.png" />
+    <Image Include="res\power-01-128.png" />
+    <Image Include="res\text2.png" />
+    <Image Include="res\text1.png" />
+    <Image Include="res\icon_Statistical.jpg" />
+    <Image Include="res\icon_Invoice.png" />
+    <Image Include="res\icon_exit.png" />
+    <Image Include="res\icon_search.png" />
+    <Image Include="res\icon_product.png" />
+    <Image Include="res\icon_supplier.png" />
+    <Image Include="res\icon_accountManager.png" />
+    <Image Include="res\icon_customer.png" />
+    <Image Include="res\rsz_welcome_1.png" />
+    <Image Include="res\search-icon-512.png" />
+    <Image Include="res\search-icon.png" />
+    <Image Include="res\self1.png" />
+    <Image Include="res\SEO-icon.png" />
+    <Image Include="res\icon_signin.png" />
+    <Image Include="res\SUPPLIER-sm.png" />
+    <Image Include="res\thumb_User_Password.png" />
+    <Image Include="res\warehouse_512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="formAbout.resx">
+      <DependentUpon>formAbout.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAccountManager.resx">
+      <DependentUpon>formAccountManager.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCustomer.resx">
+      <DependentUpon>formCustomer.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formInvoice.resx">
+      <DependentUpon>formInvoice.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLogin.resx">
+      <DependentUpon>formLogin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formProduct.resx">
+      <DependentUpon>formProduct.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSearch.resx">
+      <DependentUpon>formSearch.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formStatistical.resx">
+      <DependentUpon>formStatistical.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSupplier.resx">
+      <DependentUpon>formSupplier.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

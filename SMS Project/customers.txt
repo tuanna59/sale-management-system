@@ -1,0 +1,11 @@
+KH001|Tuan|Nguyen Anh|Male|01213987985|nguyenanhtuan090596@gmail.com|Tran Cao Van
+KH002|Nam|Nguyen Nhat|Male|0905962147|nhatnamnguyen962gmail.com|Da Nang
+KH003|Tu|Vo Ngoc Minh|Female|0905123654|minhtu1996@yahoo.com|Da Nang
+KH004|Trang|Nguyen Thi Bao|Female|0912451321|trangnguyenthi@gmail.com|Da Nang
+KH005|Minh|Do Pham Hoang|Male|0121254125|minhdo@yahoo.com|Da Nang
+KH006|Thomas|Edison|Male|1542122104|lamp@edison.com|America
+KH007|Issac|Newton|Male|9854622331|newton@gmail.com|England
+KH008|Albert|Einstein|Male|23215465|Enstein@gmail.com|Germany
+KH009|Nikola|Teslal|Male|1231564|tesla@gmail.com|Croatia
+KH010|Stephen|Hawking|Male|0000000000|hawking@stephen.com|USA
+KH011|Galileo|Galilei|Male|0123231564|galilei@yahoo.com|Italia

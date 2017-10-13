@@ -1,0 +1,12 @@
+SU001|Intel|1231321321|intel@intel.com|America
+SU002|Microsoft|9999999|microsoft@microsoft.com|America
+SU003|AMD|45464564|amd@amd.com|America
+SU004|Apple|4562131|apple@gmail.com|USA
+SU005|HTC|7554321|htc@htc.com|Taiwan
+SU006|Samsung|8542123|samsung@gmail.com|Korean
+SU007|Bkav|23145612|bkav@bkav.vn|VietNam
+SU008|Sony|1251426|sony@sony.com|Japan
+SU009|Nokia|99854231|nokia@nokia.com|Finland
+SU010|Nvidia|012235541|nvidia@nvidia.com|USA
+SU011|LG|44215343|lg@lg.com|Korean
+SU012|Oppo|44512234646|oppo@oppo.com|China

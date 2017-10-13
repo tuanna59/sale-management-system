@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ProcessClass">
+      <UniqueIdentifier>{749c140a-494a-4349-b83d-476388ffe5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcessClass\Header">
+      <UniqueIdentifier>{fbb472c8-b9b4-4af9-9017-35cd7535cefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcessClass\Source">
+      <UniqueIdentifier>{ee222a5b-45b9-4a15-a251-0d670113d0f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
+      <Filter>ProcessClass\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DetailedInvoice.cpp">
+      <Filter>ProcessClass\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Invoice.cpp">
+      <Filter>ProcessClass\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>ProcessClass\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>ProcessClass\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Supplier.cpp">
+      <Filter>ProcessClass\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Template.cpp">
+      <Filter>ProcessClass\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="formInvoice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="formCustomer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="formSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="formSupplier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="formProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="formStatistical.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="formAbout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="formAccountManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="formLogin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>ProcessClass\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DetailedInvoice.h">
+      <Filter>ProcessClass\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoice.h">
+      <Filter>ProcessClass\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>ProcessClass\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>ProcessClass\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Supplier.h">
+      <Filter>ProcessClass\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Template.h">
+      <Filter>ProcessClass\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ProcessClass\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\rsz_welcome_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_Statistical.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_Invoice.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_exit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fork-3-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Hopstarter-Sleek-Xp-Basic-User-Group.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Info_icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\invoice-manager-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Medical-invoice-information-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\palet03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\power-01-128.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\search-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\search-icon-512.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\self1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SEO-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SUPPLIER-sm.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\thumb_User_Password.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\warehouse_512.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\background.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_guide.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_logout.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\text1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\text2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_supplier.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_accountManager.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_customer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_product.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_search.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_signin.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_add.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_Ok.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_reset.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bt_Edit.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_Edit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_Edit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Image1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="formCustomer.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formInvoice.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSupplier.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formProduct.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSearch.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAbout.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formStatistical.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAccountManager.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLogin.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
