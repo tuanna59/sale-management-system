@@ -4,8 +4,8 @@ Project C++ - Sale Management System
 
 ## Screenshots
 
-![Login Screen](/../screenshots/screenshots/SC_SMS_1.png?raw=true "Login Screen")
-![Main Screen](/../screenshots/screenshots/SC_SMS_2.png?raw=true "Main Screen")
+![Login Screen](/../screenshots/screenshots/SC_SMS_ 1.png?raw=true "Login Screen")
+![Main Screen](/../screenshots/screenshots/SC_SMS_ 2.png?raw=true "Main Screen")
 ![System Menubar](/../screenshots/screenshots/SC_SMS_3.png?raw=true "System Menubar")
 ![Manager Menubar](/../screenshots/screenshots/SC_SMS_4.png?raw=true "Manager Menubar")
 ![Statistical Menubar](/../screenshots/screenshots/SC_SMS_5.png?raw=true "Statistical Menubar")
